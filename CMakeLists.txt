@@ -12,6 +12,6 @@ add_executable(sfml_sample ${SOURCE_FILES})
 include_directories(/usr/local/include)
 
 
-link_directories(inc/lib/)
+include_directories(${SFML_INCLUDE_DIRS})
 find_package(SFML 2.5 COMPONENTS system window graphics network audio REQUIRED)
 target_link_libraries(sfml_sample sfml-system sfml-window sfml-graphics sfml-audio sfml-network)
