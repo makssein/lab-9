@@ -1,6 +1,6 @@
 Проект создан на macOS  
 Для его открытия необходимо выполнить следующую инструкцию:
-1) Установите homebrew путем ввода команды в Terminal
+1) Установите homebrew путем ввода команды в Terminal  
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 2) После установки homebrew введите в Terminal:
    brew install sfml
